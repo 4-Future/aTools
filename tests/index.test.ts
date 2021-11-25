@@ -1,9 +1,7 @@
-import main from '@/index';
+import { upperCase } from '@/string';
 
-describe('Default cases', () => {
-  test('Have returns', () => {
-    const drink = jest.fn(main);
-    drink();
-    expect(drink).toHaveReturned();
+describe('upperCase cases', () => {
+  test('upperCase', () => {
+    expect(upperCase('abc')).toBe('ABC');
   });
 });

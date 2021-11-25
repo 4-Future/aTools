@@ -42,3 +42,7 @@ pnpm run bump         # 生成发版相关的修改，比如更新版本号、�
 pnpm run release      # 根据 bump 自动修改和人工修改的发版要求，发布项目
 
 ```
+
+## 学习 Storybook
+
+[Storybook 网站](https://storybook.js.org/docs/react/get-started/introduction)
