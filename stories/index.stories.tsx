@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { COLORS } from './colors';
 import { upperCase } from '@/string';
 
 const UpperCaseComponent = () => {
@@ -7,7 +8,7 @@ const UpperCaseComponent = () => {
   return (
     <div>
       <input value={val} onChange={e => setVal(e.target.value)} />
-      <div>result: {upperCase(val)}</div>
+      <div style={{ color: COLORS.b1b }}>result: {upperCase(val)}</div>
     </div>
   );
 };
